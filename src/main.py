@@ -20,6 +20,7 @@ if __name__ == "__main__":
             my_motor = MotorDriver(pyb.Pin.board.PA10, pyb.Pin.board.PB4, pyb.Pin.board.PB5, 3)
             my_encoder = encoder(pyb.Pin.board.PC6, pyb.Pin.board.PC7, 8)
             my_controller = CLController(.2, 256*4*16)
+            u2 = pyb.UART(2, baudrate=115200)
             state = S1_INPUT_SETPOINT
             
         if state == S1_INPUT_SETPOINT:
@@ -57,7 +58,8 @@ if __name__ == "__main__":
                
         if state == S4_PRINT:
             for idx in range(len(times)):
-                print(f"{times[idx]}, {thetas[idx]}")
+                u2.write(f"{times[idx]}, {thetas[idx]}\r\n")
+            u2.write('done\r\n')
             print('done')
             times = []
             thetas = []
