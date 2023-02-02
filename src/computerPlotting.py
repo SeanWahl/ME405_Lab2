@@ -15,25 +15,32 @@ with serial.Serial ('COM5', 115200) as s_port:
         if state == S1_READ:
             try:
                 line = s_port.readline()
+                #print(line)
                 lineSep = line.split(b',')
+                #print(lineSep)
                 potX = lineSep[0].strip()
                 potY = lineSep[1].strip()
                 x = float(potX)
                 y = float(potY)
             except:
-                if lineSep[0].strip() == b'done':
-                    state = S2_GRAPH
+                #print("we are in except")
+                #if lineSep == b'done\r\n':
+                state = S2_GRAPH
             else:
                 X.append(x)
                 Y.append(y)
                 pass
             
         if state == S2_GRAPH:
+            #print("we are in graph")
+            #print(X)
+            #print(Y)
             pyplot.plot(X, Y)
             pyplot.xlabel('Time [ms]')
             pyplot.ylabel('Encoder Position [ticks]')
             X = []
             Y = []
             state = S1_READ
+            break
         
             
