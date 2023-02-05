@@ -65,11 +65,11 @@ response. These motor responses, using 3 separate K_p gain values, is recorded b
 
 ### Image
 
-![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/plot_images/.01.png?raw=true)
+![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/blob/[main]/plot%20images/.5.png?raw=true)
 
-![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/plot_images/.015.png?raw=true)
+![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/blob/[main]/plot%20images/.5.png?raw=true)
 
-![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/plot_images/.5.png?raw=true)
+![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/blob/[main]/plot%20images/.5.png?raw=true)
 
 ## Extended Syntax
 
