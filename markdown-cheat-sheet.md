@@ -65,7 +65,7 @@ response. These motor responses, using 3 separate K_p gain values, is recorded b
 
 ### Image
 
-![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/blob/[main]/plot%20images/.5.png?raw=true)
+![alt text](https://www.dropbox.com/s/xajtz40b91fcek1/0.015_k.png?dl=0)
 
 ![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/blob/[main]/plot%20images/.5.png?raw=true)
 
