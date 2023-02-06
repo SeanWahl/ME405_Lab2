@@ -16,7 +16,7 @@ The input to the system is then subtracted by the actual value of the system, in
 K_p gain value to control how hard the controller will push the motor to match the desired and actual values. This K_p * error value is sent to the motor driver to control the speed and 
 direction of the motor torque. A proportional controller system setup can be seen in Figure 2.1.
 
-![Alt text, alt right, alt left](./Images/CL_control_diagram.png)
+![Alt text, alt right, alt left](./images/CL_control_diagram.png)
 
 Figure 2.1. General closed loop control system 
 
@@ -27,18 +27,18 @@ response. These motor responses, using 3 separate K_p gain values, is recorded b
 
 ### Figures
 
-![Alt text, alt right, alt left](./Images/0.01_k.png)
+![K_p = .01 Step Response](./images/0.01_k.png)
 
 Figure 2.2. Motor step response with gain value, K_p = 0.01. Notable undershoot and inefficiency in reaching the setpoint.
 
 
 
-![Alt text, alt right, alt left](./Images/0.015_k.png)
+![K_p = .015 Step Response](./images/0.015_k.png)
 
 Figure 2.3. Motor step response with gain value, K_p = 0.015. The best we were able to have the motor quickly reach the setpoint without excessive overshoot or oscillation.
 
 
 
-![Alt text, alt right, alt left](./Images/0.5_k.png)
+![K_p = .5 Step Response](./images/0.5_k.png)
 
 Figure 2.4. Motor step response with gain value, K_p = 0.5. Excessive oscillation due to too high of a K_p value.
