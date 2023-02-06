@@ -14,59 +14,23 @@ A motor /motor driver/position sensor system can be used to operate a system and
 In this proportional controller setup, many common parameters exist to control the system. The input to the system is the setpoint, or desired value of the motor (either position or velocity). 
 The input to the system is then subtracted by the actual value of the system, in which the difference is calculated to be the error signal. This error signal is then multiplied by a set
 K_p gain value to control how hard the controller will push the motor to match the desired and actual values. This K_p * error value is sent to the motor driver to control the speed and 
-direction of the motor torque. 
+direction of the motor torque. A proportional controller system setup can be seen in Digure 2.1.
+
+![Alt text, alt right, alt left](CL_control_diagram.png)
+Figure 2.1. General closed loop control system 
 
 In this exercise, the gain value of K_p is adjusted to best fit certain criteria of the assignment; K_p should not be too high so as to cause large overshoot, but not too small to not 
 drive the motor efficiently. The tuning of the K_p value is done by performing step-response tests in which the input is changed from 0 to a non-zero value in order to analyze the motor
 response. These motor responses, using 3 separate K_p gain values, is recorded below in Figures 2.2 - 2.4.
 
 
-### Heading
-
-# H1
-## H2
-### H3
-
-### Bold
-
-**bold text**
-
-### Italic
-
-*italicized text*
-
-### Blockquote
-
-> blockquote
-
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-- First item
-- Second item
-- Third item
-
-### Code
-
-`code`
-
-### Horizontal Rule
-
----
-
-### Link
-
-[Markdown Guide](https://www.markdownguide.org)
-
-### Image
+### Figures
 
 ![Alt text, alt right, alt left](0.01_k.png)
+Figure 2.2. Motor step response with gain value, K_p = 0.01
 
 ![Alt text, alt right, alt left](0.015_k.png)
+Figure 2.3. Motor step response with gain value, K_p = 0.015
 
 ![Alt text, alt right, alt left](0.5_k.png)
+Figure 2.4. Motor step response with gain value, K_p = 0.5
