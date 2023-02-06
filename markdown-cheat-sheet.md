@@ -65,72 +65,8 @@ response. These motor responses, using 3 separate K_p gain values, is recorded b
 
 ### Image
 
-![alt text](https://www.dropbox.com/s/xajtz40b91fcek1/0.015_k.png?dl=0)
+![Alt text, alt right, alt left](0.01_k.png)
 
-![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/blob/[main]/plot%20images/.5.png?raw=true)
+![Alt text, alt right, alt left](0.015_k.png)
 
-![alt text](https://github.com/[SeanWahl]/[ME405_Lab2]/blob/[main]/plot%20images/.5.png?raw=true)
-
-## Extended Syntax
-
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
-
-### Table
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-### Fenced Code Block
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-
-### Footnote
-
-Here's a sentence with a footnote. [^1]
-
-[^1]: This is the footnote.
-
-### Heading ID
-
-### My Great Heading {#custom-id}
-
-### Definition List
-
-term
-: definition
-
-### Strikethrough
-
-~~The world is flat.~~
-
-### Task List
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-### Emoji
-
-That is so funny! :joy:
-
-(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
-
-### Highlight
-
-I need to highlight these ==very important words==.
-
-### Subscript
-
-H~2~O
-
-### Superscript
-
-X^2^
+![Alt text, alt right, alt left](0.5_k.png)
