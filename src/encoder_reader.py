@@ -12,7 +12,7 @@
 import time, pyb
 
 class encoder:
-    """@brief       Implements an encoder class to be used in lab.
+    """!@brief       Implements an encoder class to be used in lab.
        @details     An encoder class compatible with the encoders in the ME 405 lab
                     kits. Allows for functions such as reading and zeroing.
     """

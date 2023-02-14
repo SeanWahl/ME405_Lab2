@@ -12,7 +12,7 @@
 import time, pyb
 
 class MotorDriver:
-    """@brief       Implements an motor driver class to be used in lab.
+    """!@brief       Implements an motor driver class to be used in lab.
        @details     A motor driver class compatible with the motors in the ME 405
                     lab kits. Allows for motors to have their duty cycles set.
     """
